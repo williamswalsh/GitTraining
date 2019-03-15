@@ -8,3 +8,8 @@ Commit - record to git database
 
 File staged -> git reset HEAD <FILE> -> File unstaged -> git checkout <FILE> -> Gets original file
 
+Commands:
+---------
+- git add -A -> Add all changes to staging area
+- git reset HEAD <FILE> -> remove file from staging area
+
