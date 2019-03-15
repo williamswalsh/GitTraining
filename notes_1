@@ -20,6 +20,8 @@ shows differences between -> working copy and repo
 
 -git diff --staged -> staging area vs repo
 
+- git rm <FILE> -> removes from working copy and staging area
+- must also commit change to delet file from working tree
 
 Upstream -
 
