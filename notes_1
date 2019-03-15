@@ -1,0 +1,10 @@
+Working Tree - all files
+DB - .git folder
+
+Staged - changes stored to be commited
+Commit - record to git database
+
+
+
+File staged -> git reset HEAD <FILE> -> File unstaged -> git checkout <FILE> -> Gets original file
+
