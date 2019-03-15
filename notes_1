@@ -14,8 +14,11 @@ Commands:
 - git reset HEAD <FILE> -> remove file from staging area
 - git remote add origin master <URL>
 - git push --set-upstream origin master -> First push requires you to set upstream
+- git log --author="William"
+- git diff <FILE>
+shows differences between -> working copy and repo
 
-
+-git diff --staged -> staging area vs repo
 
 
 Upstream -
@@ -41,4 +44,6 @@ git branch -D branch_name -> Delete a local branch
 ** Merge Conflict:
 - pulling when the remote has changes on a line where wyou have made changes to teh same line which you have committed.
 
+
+working copy >> Staging Area >> repository
 
