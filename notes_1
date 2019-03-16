@@ -23,7 +23,26 @@ shows differences between -> working copy and repo
 - git rm <FILE> -> removes from working copy and staging area
 - must also commit change to delet file from working tree
 
+Rename A file:
+- git mv <OLD_FILENAME> <NEW_FILENAME>
+
+
+- git commit -am "Commit Message"
+Add & commit all changes
+
+- git checkout -- <FILENAME>
+- git reset HEAD <FILENAME>
+
+
+- git checkout <PARTIAL_COMMIT_HASH> -- <FILENAME>
+*** -> Revert a file to its version at that commit
+
+
+
 Upstream -
+
+
+
 
 
 Git add -> Add the changes to the staging area
