@@ -37,7 +37,7 @@ Add & commit all changes
 - git checkout <PARTIAL_COMMIT_HASH> -- <FILENAME>
 *** -> Revert a file to its version at that commit
 
-THIS IS A MISTAKE
+
 
 Upstream -
 
