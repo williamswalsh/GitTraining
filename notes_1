@@ -39,8 +39,22 @@ Add & commit all changes
 
 
 
+- git remote add githubRepo <URL>
+- git push -u githubRepo
+
 Upstream -
 
+
+
+- git merge --squash <BRANCH_NAME>
+- git commit -m "Feature & master merged"
+
+REBASE
+- when in feature ->  git rebase master
+- takes any non-existing commits from master br and puts them in feature br
+=====
+- Then in master -> git rebase feature
+	
 
 
 
