@@ -70,6 +70,10 @@ changes in remote
 >>>>>>> commit ID?
 
 
+List local & remote branches:
+==============================
+git branch -a
+
 git checkout -b <BRANCH_NAME>
 
 git merge <BRANCH_NAME> -> merges BRANCH_NAME into the branch that you are on
